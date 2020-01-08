@@ -1,0 +1,78 @@
+.App {
+    text-align: center;
+    margin: 0 auto;
+}
+
+h1 {
+    color: lightseagreen
+}
+
+.textfield {
+    border: 1px solid;
+    padding: 8px;
+    width: 300px;
+    border-color: lightseagreen;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.listitem {
+    color: #861616;
+    padding: 12px;
+    list-style: none;
+    font-family: cursive;
+    text-align: justify;
+    padding-bottom: 16px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.562);
+    background-color: rgba(147, 212, 209, 0.555)
+}
+
+.searchbar {
+    margin-bottom: 20px;
+    border: 1px solid;
+    border-color: lightseagreen;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.check {
+    text-decoration: line-through;
+}
+
+.TabDiv {
+    text-align: center;
+    margin: 15px;
+}
+
+.tab {
+    border: none;
+    margin: 15px;
+    background: white;
+    font-size: 16px;
+}
+
+.tab.active {
+    border-radius: 5px;
+    padding: 10px;
+    background: rgb(110, 181, 184);
+}
+
+.tab:hover {
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    /* background: rgba(84, 158, 161, 0.377); */
+}
+
+.checkbtn {
+    background: white;
+    padding: 3px;
+    float: right;
+    margin-right: 15px;
+}
+
+.delbtn {
+    background: white;
+    padding: 3px;
+    float: right;
+}
